@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+.header-container {
+  background-color: darkslategrey;
+}
+
+.principal-title {
+  color: aliceblue;
+}
+
+.main-container {
+  background-color: darkgray;
+}
+
+.aside-container {
+  background-color: dimgray;
+}
