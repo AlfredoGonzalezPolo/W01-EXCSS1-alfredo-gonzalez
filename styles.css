@@ -3,6 +3,8 @@
 }
 
 html {
+  margin: 0 auto;
+  padding: 0%;
 }
 
 .header-container {
@@ -11,6 +13,7 @@ html {
 
 .principal-title {
   color: aliceblue;
+  display: block;
 }
 
 .main-container {
