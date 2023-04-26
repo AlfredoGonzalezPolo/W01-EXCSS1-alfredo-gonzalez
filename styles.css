@@ -3,8 +3,17 @@
 }
 
 html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
   padding: 0%;
+
+  max-height: 1200px;
+}
+
+.full-container {
+  width: 90vw;
+  max-width: 1200px;
+  display: flex;
 }
 
 .header-container {
@@ -13,13 +22,21 @@ html {
 
 .principal-title {
   color: aliceblue;
-  display: block;
 }
 
 .main-container {
   background-color: darkgray;
+  display: inline-block;
+  width: 100%;
 }
 
 .aside-container {
   background-color: dimgray;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer {
+  background-color: darkslategray;
+  text-align: center;
 }
